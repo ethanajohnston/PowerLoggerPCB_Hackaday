@@ -167,7 +167,7 @@ void wakeDisplay() {
 
 void measure_values(){
   if(use_channel_1){
-    shunt_voltage_1 = INA3221.getShuntVoltage(INA3221_CH1); //Value will be returned in mV. 
+    shunt_voltage_1 = INA3221.getShuntVoltage(INA3221_CH1); //Value will be returned in uV. 
     bus_voltage_1 = INA3221.getVoltage(INA3221_CH1);
     current_mA_1 = INA3221.getCurrent(INA3221_CH1) * 1000; // mA
     load_voltage_1 = bus_voltage_1 + (shunt_voltage_1 / 1000000);
