@@ -10,7 +10,7 @@ The repo is a **PlatformIO** project. I fixed most issues with the source code a
 - Better deboucing and button responsiveness.
 - Very fast loading time.
 - Changed INA3221 lib and source code functions to provide info in the advertised units.
-- I have a 50Ohm shunt on Ch1, 33.33Ohm on Ch2 and 100Ohm shunt on ch3. I will likely change all channels to 33.33Ohm so it can measure up to 4.9A. With 100Ohm the max current is 1.628A :/
+- I have a 50Ohm shunt on Ch1, 33.33Ohm on Ch2 and 100Ohm shunt on ch3. I will likely change all channels to 33.33Ohm so it can measure up to 4.9A. With the default 100Ohm shunt, the max measurable current per channel is 1.628A.
 - Fixed bugs with text not being cleared when changing between some screens.
 
 ## Changing Shunt Resistor Value:
