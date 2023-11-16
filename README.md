@@ -3,7 +3,7 @@ Working code for ESP32 3-Channel Power Logger Hackaday Project
 
 This is much better code written for the power logger here: https://hackaday.io/project/187504-esp32-3-channel-power-logger
 
-The repo is a PlatformIO project. I fixed most issues with the source code and also some in the INA3221 library.
+The repo is a **PlatformIO** project. I fixed most issues with the source code and also some in the INA3221 library.
 
 ## Changes:
 - Disabled Wifi and Time Server. (This is usually not needed but can easily be uncommented back in. By default was programmed to wait until wifi is connected before doing anything else which I found annoying.)
