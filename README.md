@@ -5,6 +5,8 @@ This is much better code written for the power logger here: https://hackaday.io/
 
 The repo is a **PlatformIO** project. I fixed most issues with the source code and also some in the INA3221 library.
 
+The board uses the ESP32C3. More info in the platformio.ini.
+
 ## Changes:
 - Disabled Wifi and Time Server. (This is usually not needed but can easily be uncommented back in. By default was programmed to wait until wifi is connected before doing anything else which I found annoying.)
 - Better deboucing and button responsiveness.
